@@ -3,6 +3,11 @@
 dockerfilePath = "Dockerfile"
 
 [deploy]
+<<<<<<< HEAD
+=======
+# Railway inyecta $PORT automáticamente
+startCommand = "php artisan serve --host=0.0.0.0 --port=$PORT"
+>>>>>>> c6f22c41902d8c48b91ffa64dfda71d8c0941289
 healthcheckPath = "/"
 healthcheckTimeout = 300
 restartPolicyType = "ON_FAILURE"
